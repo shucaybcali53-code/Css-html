@@ -1,1 +1,94 @@
+/* Nadiifinta qaabka guud */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #7b7bbd; /* Midabka guduudan/buluugga ah ee asalka dambe */
+    padding: 20px;
+}
+
+/* Qaybta Madaxa (Header) */
+.main-header {
+    background-color: #cbd468; /* Midabka cagaarka/jaalaha ah ee sare */
+    text-align: center;
+    padding: 15px;
+    color: #333;
+}
+
+/* Isku xidhka labada tiir */
+.container {
+    display: flex;
+    min-height: 400px;
+    margin-top: 5px;
+}
+
+/* Tiirka Bidix (Sidebar) */
+.sidebar {
+    background-color: #df7a4a; /* Midabka liinta/orange ah ee bidixda */
+    width: 20%;
+    padding: 20px 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+/* Qaabka xidhiidhadha (Links) iyo Saamaynta Hover-ka */
+.sidebar ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Isbedelka marka la dul istaago */
+}
+
+/* HOVER EFFECT: Marka mouse-ka la dul dhigo link-yada */
+.sidebar ul li a:hover {
+    background-color: white; /* Midabka dambe wuxuu noqonayaa caddaan */
+    color: #df7a4a;          /* Qoraalka wuxuu isu bedelaa midabka liinta */
+}
+
+/* Tiirka Midig (Main Content) */
+.main-content {
+    background-color: #d6686b; /* Midabka buraashka/guduudka xanaaqsan ee dhexe */
+    width: 80%;
+    padding: 40px;
+    color: white;
+}
+
+.main-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.warning {
+    margin-top: 20px;
+    opacity: 0.9;
+}
+
+/* Qaybta Hoose (Footer) */
+.main-footer {
+    background-color: #df9e43; /* Midabka dahabiga/jaalaha mugdiga ah ee hoose */
+    text-align: center;
+    padding: 15px;
+    color: #333;
+    margin-top: 5px;
+}
+
+
 
